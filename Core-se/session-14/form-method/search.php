@@ -1,0 +1,24 @@
+<?php
+if($_SERVER["REQUEST_METHOD"] == "GET"){
+    echo $_GET["keyword"]."<br>";
+    //echo $_GET["email"]."<br>";
+}
+
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post Method</title>
+</head>
+<body>
+    <form action="" method="get">
+        <div>
+            <input type="text" name="keyword" id="keyword" placeholder="Input nama">
+        </div>
+        <input type="submit" value="submit">
+    </form>
+</body>
+</html>
